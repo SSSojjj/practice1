@@ -1,0 +1,9 @@
+diff a/03-1/03-1/ex1.py b/03-1/03-1/ex1.py	(rejected hunks)
+@@ -1,7 +1,6 @@
+ data = input("Enter list of numbers: ")
+ numbers = data.split()
+ numbers = [int(i) for i in numbers]
+-minval = 99999999
+ minval = 128888888;
+ for val in numbers:
+     if (minval > val):
